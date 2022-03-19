@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script
+			src="https://kit.fontawesome.com/5a728aa74e.js"
+			crossorigin="anonymous"
+		></script>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,800;1,400;1,800&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./css/main.css" />
+		<title>flexbox</title>
+	</head>
+	<body>
+		<nav>
+			<button class="burger-btn">
+				<div class="burger-btn__box">
+					<div class="burger-btn__bars"></div>
+				</div>
+			</button>
+			<div class="nav">
+				<div class="nav__items">
+					<a href="#island" class="nav__item">Wyspy</a>
+					<a href="#offer" class="nav__item">Oferta</a>
+					<a href="#reviev" class="nav__item">Opinie</a>
+					<a href="#contact" class="nav__item">Kontakt</a>
+				</div>
+			</div>
+		</nav>
+		<header class="header section">
+			<h1 class="header__heding">Tropical Paradice</h1>
+			<p class="header__text">
+				Lorem ipsum dolor sit amet consectetur adipisicing elit.
+			</p>
+			<a href="offers" class="header__btn btn-special-animation"
+				>Poznaj ofertę</a
+			>
+			<div class="white-block white-block-left"></div>
+		</header>
+		<main class="main">
+			<section class="dreams section-padding section white-section">
+				<div class="wraper">
+					<h2 class="section-heding">Spełniaj marzenia</h2>
+					<div class="dreams__box">
+						<div class="dreams__box-img">
+							<img src="./img/paradise-small.jpg" alt="" class="dreams__img" />
+						</div>
+
+						<div class="dreams__box-text">
+							<h3 class="dreams__title">Wymarzone wakacje</h3>
+							<p class="dreams__text">
+								Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+								Doloremque, ratione. Ab, voluptas nulla libero officia
+								recusandae repudiandae harum tenetur odio laboriosam
+								perferendis, commodi eligendi veniam temporibus exercitationem
+								quae excepturi earum.
+							</p>
+						</div>
+					</div>
+					<div class="dreams__box">
+						<div class="dreams__box-img dreams__box-img--right">
+							<img
+								src="./img/bora-bora-samall.jpg"
+								alt=""
+								class="dreams__img"
+							/>
+						</div>
+
+						<div class="dreams__box-text dreams__box-text--right">
+							<h3 class="dreams__title">Niezapomniane przygody</h3>
+							<p class="dreams__text">
+								Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+								Doloremque, ratione. Ab, voluptas nulla libero officia
+								recusandae repudiandae harum tenetur odio laboriosam
+								perferendis, commodi eligendi veniam temporibus exercitationem
+								quae excepturi earum.
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="hero-img section-padding">
+				<p class="hero-img__title">Reopical paradice</p>
+				<hr />
+				<p class="hero-img__text">Jedyne takie miejsce na ziemi</p>
+				<hr />
+				<div class="white-block white-block-right"></div>
+				<div class="white-block white-block-left"></div>
+			</section>
+			<section id="island" class="island section section-padding white-section">
+				<div class="wrapper">
+					<h2 class="section-heding">Polecane Wyspy</h2>
+
+					<div class="islands__cards">
+						<div class="islands__card" onclick="void(0)">
+							<div class="islands__card-img islands__card-img--first">
+								<h3 class="islands__card-img-title">Wyspa Tiki Taki</h3>
+								<p class="islands__card-img-info">
+									<i class="fas fa-angle-double-right"></i>Więcej informacji
+								</p>
+							</div>
+							<div class="islands__card-info">
+								<h3 class="islands__card-info-title">Wyspa Tiki Taki</h3>
+								<ul class="islands__card-info-list">
+									<li class="islands__card-info-list-item">11111</li>
+									<li class="islands__card-info-list-item">11111</li>
+									<li class="islands__card-info-list-item">11111</li>
+									<li class="islands__card-info-list-item">11111</li>
+									<li class="islands__card-info-list-item">11111</li>
+								</ul>
+								<button class="islands__card-info-btn btn-special-animation">
+									Sprawdź
+								</button>
+							</div>
+						</div>
+						<div class="islands__card" onclick="void(0)">
+							<div class="islands__card-img islands__card-img--second">
+								<h3 class="islands__card-img-title">Wyspa Toku Toku</h3>
+								<p class="islands__card-img-info">
+									<i class="fas fa-angle-double-right"></i>Więcej informacji
+								</p>
+							</div>
+							<div class="islands__card-info">
+								<h3 class="islands__card-info-title">Wyspa Toku Toku</h3>
+								<ul class="islands__card-info-list">
+									<li class="islands__card-info-list-item">111111</li>
+									<li class="islands__card-info-list-item">111111</li>
+									<li class="islands__card-info-list-item">111111</li>
+									<li class="islands__card-info-list-item">111111</li>
+									<li class="islands__card-info-list-item">111111</li>
+								</ul>
+								<button class="islands__card-info-btn btn-special-animation">
+									Sprawdź
+								</button>
+							</div>
+						</div>
+						<div class="islands__card" onclick="void(0)">
+							<div class="islands__card-img islands__card-img--third">
+								<h3 class="islands__card-img-title">Wyspa Nobu</h3>
+								<p class="islands__card-img-info">
+									<i class="fas fa-angle-double-right"></i>Więcej informacji
+								</p>
+							</div>
+							<div class="islands__card-info">
+								<h3 class="islands__card-info-title">Wyspa Nobu</h3>
+								<ul class="islands__card-info-list">
+									<li class="islands__card-info-list-item">111111</li>
+									<li class="islands__card-info-list-item">111111</li>
+									<li class="islands__card-info-list-item">111111</li>
+									<li class="islands__card-info-list-item">111111</li>
+									<li class="islands__card-info-list-item">111111</li>
+								</ul>
+								<button class="islands__card-info-btn btn-special-animation">
+									Sprawdź
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<div
+			style="width: 100%; height: 20vh; background-color: rgb(0, 0, 0)"
+		></div>
+		<script src="./js/main.js"></script>
+	</body>
+</html>
